@@ -1,0 +1,47 @@
+Script started on Monday 27 January 2020 09:59:19 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ cat>a[Knumber.txt
+21
+65
+12
+56]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ sort -n number.txt
+12
+21
+56
+65
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ cat>abc.txt
+i am from mavelikara my name is            
+my name is kavya.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ grep "mavek[Klikara" ac[Kbc.txt
+i am from [01;31m[Kmavelikara[m[K 
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ paste number.txt abc.txt
+21	i am from mavelikara 
+65	my name is kavya.
+12	
+56	
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ script reort[K[K[K[K[Kreport.txt
+Script started, file is report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ gedit report.txt
+^Z
+[1]+  Stopped                 gedit report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git init
+Initialized empty Git repository in /home/student/ceccs18c35/cs232/2701/.git/
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git pull http:\[K//github.com/ceccs18c35/cs232
+fatal: Couldn't find remote ref HEAD
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git init
+Reinitialized existing Git repository in /home/student/ceccs18c35/cs232/2701/.git/
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git pull [K]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git pull http://f[Kgit hub.com/ceccs18c35/cs232
+fatal: Couldn't find remote ref HEAD
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git init
+Reinitialized existing Git repository in /home/student/ceccs18c35/cs232/2701/.git/
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ git pull[K[K[K[K[K[K[K[Kgedit report.txt
+[1]+  Killed                  gedit report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ SR[K CR[K[K[K[Kscript report.txt
+Script started, file is report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ gedit scrip[K[K[K[K[Kreport.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ gedit report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/2701[00m$ history
+    1  ls
+    2  pwd
+    3  cat > aa.txt
+    4  grep "hai" aa.txt
+    5  cat 
