@@ -1,0 +1,202 @@
+Script started on Monday 03 February 2020 10:58:41 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ ssh cs18c35@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c35@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 10:35:29 2020 from 192.168.0.183
+
+$ ls
+0302  2701  examples.desktop
+$ cd /
+$ ls
+bin   cdrom  dev  home	      lib    lib64	 media	opt   root  sbin  srv  tmp  var
+boot  core   etc  initrd.img  lib32  lost+found  mnt	proc  run   snap  sys  usr  vmlinuz
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ scp work.txt cs18c35@192.168.0.30[1P[1P[1P[1P[1@a[1@b[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cp: cannot stat 'abc.txt': No such file or directory
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cat A>[K[K>abc.txt
+adfdd
+hvfgu
+bhvfcu
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cat >abc.txt
+my name is ka  Kavya.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cat abc.txt
+my name is Kavya.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ scp abc.txt cs18c35@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c35@192.168.0.30's password: 
+
+abc.txt                                                                                                        0%    0     0.0KB/s   --:-- ETA
+abc.txt                                                                                                      100%   18     0.0KB/s   00:00    
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ mkdir t[Ktext.txt[K[K[K[K[Kt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cd text
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ cat >abc.txt
+my name is Kavya
+m I am from Mavelikara.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ rsync -avh 0302/ text /
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c35/cs232/0302/text//0302" failed: No such file or directory (2)
+rsync: link_stat "/home/student/ceccs18c35/cs232/0302/text/text" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ ls
+abc.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ rsync -avh 0302/ text/
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c35/cs232/0302/text//0302" failed: No such file or directory (2)
+created directory text
+
+sent 20 bytes  received 39 bytes  118.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ ls
+abc.txt  [0m[01;34mtext[0m
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302/text[00m$ cd ..
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ sftp  cs18c35@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c35@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302                2701                examples.desktop    
+sftp> put abc.txt
+Uploading abc.txt to /home/cs18c35/abc.txt
+
+abc.txt                                                                                                        0%    0     0.0KB/s   --:-- ETA
+abc.txt                                                                                                      100%   18     0.0KB/s   00:00    
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/student/ceccs18c35/cs232
+sftp> ls
+0302                2701                abc.txt             examples.desktop    
+sftp> rm abc.txt
+
+Removing /home/cs18c35/abc.txt
+sftp> 
+sftp> ls
+0302                2701                examples.desktop    
+sftp> quit
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ if con[K[K[K[K[K[Kifconfig -a
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:8a  
+          inet addr:192.168.0.183  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::3d94:73d5:38c3:e19d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:11842871 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17833 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:978024927 (978.0 MB)  TX bytes:3707860 (3.7 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:50940 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:50940 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3774696 (3.7 MB)  TX bytes:3774696 (3.7 MB)
+
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp2s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp2s0
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ route add default gw 192.168.0.30[K[K20
+SIOCADDRT: Operation not permitted
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.84 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.58 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=2.58 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=26.4 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=1423 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=399 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.45 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=28.8 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=2.41 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=13 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=14 ttl=64 time=2.63 ms
+64 bytes from 192.168.0.1: icmp_seq=15 ttl=64 time=2.63 ms
+64 bytes from 192.168.0.1: icmp_seq=16 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=17 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=18 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=19 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=20 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=21 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=22 ttl=64 time=43.7 ms
+64 bytes from 192.168.0.1: icmp_seq=23 ttl=64 time=59.2 ms
+64 bytes from 192.168.0.1: icmp_seq=24 ttl=64 time=7.88 ms
+64 bytes from 192.168.0.1: icmp_seq=25 ttl=64 time=4.48 ms
+64 bytes from 192.168.0.1: icmp_seq=26 ttl=64 time=14.5 ms
+64 bytes from 192.168.0.1: icmp_seq=27 ttl=64 time=52.1 ms
+64 bytes from 192.168.0.1: icmp_seq=28 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=29 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=30 ttl=64 time=2.44 ms
+64 bytes from 192.168.0.1: icmp_seq=31 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=32 ttl=64 time=14.8 ms
+64 bytes from 192.168.0.1: icmp_seq=33 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=34 ttl=64 time=2.56 ms
+64 bytes from 192.168.0.1: icmp_seq=35 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=36 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=37 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=38 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=39 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=40 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=41 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=42 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=43 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=44 ttl=64 time=2.56 ms
+64 bytes from 192.168.0.1: icmp_seq=45 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=46 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=47 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=48 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_seq=49 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=50 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=51 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=52 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=53 ttl=64 time=2.44 ms
+64 bytes from 192.168.0.1: icmp_seq=54 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=55 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=56 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=57 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=58 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=59 ttl=64 time=7.33 ms
+64 bytes from 192.168.0.1: icmp_seq=60 ttl=64 time=18.5 ms
+^C
+--- 192.168.0.1 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59119ms
+rtt min/avg/max/mdev = 2.414/37.137/1423.548/187.722 ms, pipe 2
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cat ?[K/etc/resolv.conf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ cat /etc/resolv.conf
+cat: /etc/resolv.conf: No such file or directory
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ echo "nameserver 1.1.1.1">>resolv.conf
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ ls
+abc.txt  file.txt  resolv.conf  result_CHN.pdf  result_CHN.txt  result.txt  [0m[01;34mtext[0m  work.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/0302[00m$ exit
+exit
+
+Script done on Monday 03 February 2020 11:44:00 AM IST
