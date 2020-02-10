@@ -1,0 +1,24 @@
+CEC CS 18 c35
+KAVYA M
+
+--------------------------------
+#1: Aim/task SCRIPTING  TASK (t2)
+---------------------------------
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+
+	#pdf file is converted to text file
+        #using grep command cs batch results are separated
+
+--------------------------------
+Output: 
+
+	
+----------------------
+Remarks if any:
+
+
+

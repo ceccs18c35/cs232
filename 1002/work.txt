@@ -1,0 +1,158 @@
+Script started on Monday 10 February 2020 10:39:13 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ pdftotext result_CHN.pdf [C[1@-[1@l[1@a[1@y[1@o[1@u[1@t[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch [1P [C s 1 r e s u l t . t x t 
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ grep "CHN18CS" <S1CRESULT[K[K[K[K[K[K[K[K[Ks1cresult.txt[1Presult.txtcresult.txtsresult.txt[C[C[C[C[C[C[C[C[C[C <s1csresult.txts <s1csresult.txt1 <s1csresult.txtr <s1csresult.txte <s1csresult.txts <s1csresult.txtu <s1csresult.txtl <s1csresult.txtt <s1csresult.txt. <s1csresult.txtt <s1csresult.txtx <s1csresult.txtt <s1csresult.txt[C[C[1Ps1csresult.txt>s1csresult.txt s1csresult.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ nano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by student with nano 2.5.3, PID 3756); continue?                                                               [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[43;1H[?1049l[?1l>[?1049h[1;24r[39;49m(B[m[4l[?7h[H[2J[24;80H[?1h=[?1h=[?1h=[H[2J[24;80H[H(B[0;7m  GNU nano 2.5.3                New Buffer                                      [22;1HFile script.sh is being edited (by student with nano 2.5.3, PID 3756); continue [23;1H Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;80H[24;1H[?1049l[?1l>[?1049h[1;43r[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                New Buffer                                      [22dFile script.sh is being edited (by student with nano 2.5.3, PID 3756); continue [23d Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;80H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                New Buffer                                      [22dFile script.sh is being edited (by student with nano 2.5.3, PID 3756); continue [23d Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;80H[2d[19L[1;33H(B[0;7m          [1;54HNew Buffer[1;81H                                                               [41;80H?                                                               [41;81H(B[m[?25l[41;65H[1K (B[0;7m[ New File ](B[m[K[3d[?12l[?25h[1;52H[39;49m(B[0;7mFile: script.sh[42d^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3d(B[mpdftotext[42m [49m(B[m -layout[42m [49m(B[m result[42m [49m(B[m r[41d[K[3;27Hesult     [42m [49m(B[m[K      [42m [49m(B[m[K [42m [49m(B[m result_CHN.txt[42m [49m(B[m s1result[1P[1P[1Pp s1result[3;31Hd s1result[3;32Hf s1result[3;33H s1result.txt[4dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "c CHN18CS[6G(B[0;1m[33m"CHN18CS"[39m(B[m[42m [49m(B[m S1 [42m [49m(B[m[K[42m [49m(B[m  [42m [49m(B[m s1result.txt[42m [49m(B[m [32m>[39m(B[msem1result.txt[5dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "CHN18CS[6G(B[0;1m[33m"CHN18CS"[39m(B[m[42m [49m(B[m s1[42m [49m(B[m re [42m [49m(B[m[K r[42m [49m(B[m[K resul.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m sem1result.txt[6dpdftotext[42m [49m(B[m -layout[42m [49m(B[m result- _CHN.pdf[42m [49m(B[m result.txt[7dtr[42m [49m(B[m '/ [42m [49m(B[m[K  [K[6;44H         [42m [49m(B[m[K              [42m [49m(B[m[K       [42m [49m(B[m[K         [K[A[C[C[C[C [C[C[C[C[C[C[C[C[C s1result.txt [32m>[39m(B[m sem1result.txt[5;24H.txt [C sem1result.txt[6dtr[42m [49m(B[m '/n(B[0;1m[33m'/n'[39m(B[m[42m [49m(B[m '[42m [49m(B[m(B[0;1m[33m' '[39m(B[m[1P(B[0;1m[33m\n'[39m(B[m (B[0;1m[33m' '[6G[39m(B[m[C[C [C[C[C[42m [49m(B[m [32m<[39m(B[m[42m [49m(B[m[42m [49m(B[m  s1csresult.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m[42m [49m(B[m  re [42m  [49m(B[m[K  [42m [49m(B[m reslt  ult- _nn.txt[7dse(B[0;1m[34msed[39m(B[m[42m [49m(B[m 's[32m\[39m(B[m /[32m\[39m(B[mt//g[5G(B[0;1m[33m's/\t//g'[39m(B[m[42m [49m(B[m result- _nn.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m result_new.txtew.txt[8d[9d[Aaw(B[0;1m[34mawk[39m(B[m'(B[0;1m[33m''[39m(B[m'[K [42m [49m(B[m '[42m [49m(B[m [32m{[39m(B[m[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m[32m=[39m(B[m[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m[32m:[39m(B[mprint[32m}[39m(B[m[5G(B[0;1m[33m'{$1=$1:print}'[39m(B[mresult- _new.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m result_nn.y txt[9dse(B[0;1m[34msed[39m(B[m[42m [49m(B[m 's/Ch HN/[32m\[39m(B[mc CHN[32m\[39m(B[m /G[5G(B[0;1m[33m's/CHN/\CHN/G'[39m(B[m[42m [49m(B[m RESULT     [42m [49m(B[m[K [5G's/CHN/[32m\[39m(B[mCHN/G[K g[5G(B[0;1m[33m's/CHN/\CHN/g'[39m(B[m[42m [49m(B[m result[42m [49m(B[m _nn.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m result_new.txt[10d'tr[42m [49m(B[m(B[0;1m[33m'tr '[39m(B[m,'(B[0;1m[33m''[39m(B[m'[42m [49m(B[m [32m<[39m(B[mresult- _na.txt[42m [49m(B[m [32m>[39m(B[mresult.txt[11d[43;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano script.sh
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ ls
+result_CHN.pdf  s1csresult.txt  s1result.txt  s2result_CHN.pdf  script.sh.save  work.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ c[Kscript.sh
+script.sh: command not found
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ script.shls[Kscript.sh[K[K[K[K[K[K[K[K[Kls script[K[K[K[K[K[K[K[K[Kcat >script.sh
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ nano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by student with nano 2.5.3, PID 5043); continue?                                                               [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[?25l[41;63H[1K (B[0;7m[ Reading File ](B[m[K[3d[41;70H(B[0;7m 0 lines[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[43;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano script.sh
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ cat >s1result.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ cat >s1result.txt[3Pnano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by student with nano 2.5.3, PID 5519); continue?                                                               [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[?25l[41;63H[1K (B[0;7m[ Reading File ](B[m[K[3d[41;70H(B[0;7m 0 lines[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3d(B[mpdftotext[42m [49m(B[m -layout[42m [49m(B[m result_C[41d[K[3;27HHN1 .pdf[42m [49m(B[m result_chn   CHN.txt[4dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "CHN18CS[6G(B[0;1m[33m"CHN18CS"[39m(B[m[42m [49m(B[m rre  esult- _CHN.T txt[5dtr[42m [49m(B[m '[32m\[39m(B[mn(B[0;1m[33m'\n'[39m(B[m'(B[0;1m[33m''[39m(B[m[42m [49m(B[m [32m<[39m(B[m[42m [49m(B[m[K '[K '[32m\[39m(B[mn[K  [42m [49m(B[m[K  [K[4;30H[5dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "CHN18CS[6G(B[0;1m[33m"CHN18CS"[39m(B[m[42m [49m(B[m RESULT     [42m [49m(B[m[K result_CHN.txt[42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m css1result[6dtr[42m [49m(B[m[42m [49m(B[m  '[32m\[39m(B[mn(B[0;1m[33m'\n'[39m(B[m'(B[0;1m[33m''[39m(B[m[42m [49m(B[m [32m<[39m(B[mr [42m [49m(B[m result     [42m [49m(B[m[K css1result.txt[32m>[39m(B[m [42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m result[42m [49m(B[m _nn.txt[7dse(B[0;1m[34msed[39m(B[m[42m [49m(B[m 's/[32m\[39m(B[mt//g[5G(B[0;1m[33m's/\t//g'[39m(B[m[41d(B[0;7mFile Name to Write: script.sh                                                                                                                  [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;30H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[7;14H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[7;14H[41d[J[43;143H[43;1H[?1049l[?1l>]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ exit
+exit
+There are stopped jobs.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ re[K[Ksc[K[Kgedit report [K.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c35/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c35/cs232/1002[00m$ history
+    1  ls
+    2  pwd
+    3  cat > aa.txt
+    4  grep "hai" aa.txt
+    5  cat > aa.txt
+    6  grep "number" aa.txt
+    7  cat >kk.txt
+    8  paste aa.txt kk.txt
+    9  mkdir cec35
+   10  ls - l
+   11  ls -l
+   12  cat > ss.txt
+   13  paste ss.txt kk.txt
+   14  join r.aa.txt r.kk.txt
+   15  join aa.txt kk.txt
+   16  grep hello kk.txt
+   17  ls -lt
+   18  ls -ltr
+   19  ls ab*-d
+   20  ls cec35*-d
+   21  ls cec35
+   22  ls aa
+   23  ls aa.txt
+   24  grep -w
+   25  sort -n aa.txt
+   26  cut-f3 aa.txt
+   27  cut aa.txt
+   28  cut .c aa.txt
+   29  cut -c 65 aa.txt
+   30  sort -n aa.txt
+   31  ls
+   32  cd
+   33  mkdir ceccs18c35
+   34  cd ceccs18c35
+   35  git init
+   36  git pull http://github.com/ceccs18c35/cs232
+   37  history
+   38  git init
+   39  man pwd
+   40  man cd
+   41  man clear
+   42  man ls
+   43  man touch
+   44  man mkdir
+   45  man cat
+   46  man rm
+   47  man rmdir
+   48  man cp
+   49  man mv
+   50  man who
+   51  man cmp
+   52  No manual entry for cd
+   53  cat abc.txt
+   54  cat>abc.txt
+   55  cat>number.txt
+   56  sort-n number
+   57  sort -n number
+   58  ifconfig
+   59  ping 192.168.0.2
+   60  sort -n number.txt
+   61  cat>abc.txt
+   62  grep"mavelikara"abc.txt
+   63  grep "mavelikara" abc.txt
+   64  cat>aa.txt
+   65  paste aa.txt abc.txt
+   66  cat>b.txt
+   67  cat aa.txt
+   68  cat abc.txt
+   69  cut f3-d"mavelikara"
+   70  exit
+   71  ls
+   72  mkdir 2701
+   73  cd 2701
+   74  script work.txt
+   75  ls
+   76  cat>abc.txt
+   77  scrpt work.txt
+   78  script work.txt
+   79  script report.txt
+   80  gedit report.txt
+   81  mkdir ceccs18c35
+   82  cd ceccs18c35
+   83  mkdir ceccs18c35
+   84  cd ceccs18c35
+   85  mkdir cs232
+   86  cd cs232
+   87  cd 2701
+   88  mkdir 2701
+   89  cd 2701
+   90  cat>abc.txt
+   91  grep "mavelikara" abc.txt
+   92  script.work.txt
+   93  script work.txt
+   94  cat>number.txt
+   95  sort -n number.txt
+   96  cat>abc.txt
+   97  grep "mavelikara" abc.txt
+   98  paste number.txt abc.txt
+   99  script report.txt
+  100  gedit report.txt
+  101  git init
+  102  git pull http://github.com/ceccs18c35/cs232
+  103  git init
+  104  git pull http://github.com/ceccs18c35/cs232
+  105  git init
+  106  gedit report.txt
+  107  script report.txt
+  108  gedit report.txt
+  109  history
+  110  sftp cs18c35@14.139.189.217
+  111  sftp cs18c35@192.168.0.30
+  112  ping 192.168.0.30
+  113  pwd
+  114  cd ceccs18c35
+  115  cd cs232
+  116  mkdir 0302
+  117  cd 0302
+  118  sftp cec18c35@192.168.0.30
+  119  pwd
+  120  cd ceccs18c35
+  121  cd cs232
+  122  mkdir 0302
+  123  cd 0302
+  124  sftp cs18c35@192.168.0.30
+  125  exit
+  126  pwd
+  127  cd cecss18c35
+  128  cd ceccs18c35
+  129  cd cs232
+  130  cd 2701
+  131  gedit report.txt
+  132  gedit work.txt
+  133  sftp cs18c35@192.168.0.30
+  134  exit
+  135  pdftotext -layout r
