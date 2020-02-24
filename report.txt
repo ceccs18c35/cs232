@@ -1,36 +1,28 @@
-CEC CS 18 C35
-Kavya M
+CEC CS 18 c35
+KAVYA M
 
 --------------------------------
-#1: Aim/task LINUX FAMILIARIZATION
+#1: Aim/task SCRIPTING  TASK (t2)
 ---------------------------------
-Command/Shell script/Program name
-WORK FILE
-work.txt
-report.txt
-
----------------------------------
-
-Input: (If relevant)
+Input: 
 ---------------
-abc.txt
-number.txt
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+
+	#pdf file is converted to text file
+        #using grep command cs batch results are separated
 
 --------------------------------
-Output: or Input & Output (whichever is applicable)
-
-Commands executed successfully.
-
-
--------------------
+Output: File with cgpa of s1 and s2.
+#2: WEB PAGE CREATION(t9)
+INPUT:
+       index.html
+       
+OUTPUT:
+      file:///home/student/ceccs18c35/cs232/2402/index.html
+	
+----------------------
 Remarks if any:
-Linux commands familarized.
-
-
-
-
--------------------------------------
--------------------------------------
-
 
 
