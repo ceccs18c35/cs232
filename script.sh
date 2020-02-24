@@ -2,7 +2,7 @@
 
 clear
 
-pdftotext -layout result_CHN.pdf result_CHN.txt
+pdftotext -layout s2result_CHN.pdf result_CHN.txt
 
 grep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt
 
