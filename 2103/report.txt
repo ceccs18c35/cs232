@@ -1,0 +1,30 @@
+CEC CS 18 C35
+Kavya M
+
+--------------------------------
+#1: t8(2)
+      Perl
+---------------------------------
+Command/Shell script/Program name
+
+         1.Add two numbers and display it's sum.
+         2.Check whether the number is prime or not.
+
+
+
+--------------------------------
+Output: 
+
+ 1.
+         Enter first number:
+          2
+         Enter second number:
+          4
+         Sum is 6
+
+2.
+        Enter a number 4
+        Not prime.
+
+-------------------
+

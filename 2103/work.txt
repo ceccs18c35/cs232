@@ -1,0 +1,15 @@
+Script started on Saturday 21 March 2020 11:36:50 PM IST
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/2103[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/2103[00m$ exitperl prime.py[2Padd.py[1@gedit[C[C[C[C[C[C[Cperl prime.py[1Pgedit add.py
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/2103[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/2103[00m$ gedit add.py[8Pexitperl prime.py[2Padd.py
+Enter a number:
+2
+Enter second number:
+4
+Sum is 6 
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/2103[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/2103[00m$ perl add.py[1@gedit[C[C[C[C[C[C[C[8Pexitperl prime.py[2Padd.py[1@gedit[C[C[C[C[C[C[Cperl prime.py[1@gedit[C[C[C[C[C[C[C[C[Cfname.plprime.py
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/2103[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/2103[00m$ gedit prime.py[3Pperl add.py[1@gedit[C[C[C[C[C[C[C[8Pexitperl prime.py
+Enter a number 4
+Not prime.n]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/2103[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/2103[00m$ perl prime.py[1@gedit[C[C[C[C[C[C[C[C[C[3Pperl add.py[1@gedit[C[C[C[C[C[C[C[8Pexitperl prime.pyexit[K
+exit
+
+Script done on Saturday 21 March 2020 11:39:24 PM IST
