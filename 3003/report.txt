@@ -1,0 +1,46 @@
+CEC CS 18 C35   
+KAVYA M
+
+--------------------------------
+#1: Setting up ftp and http server (t7)
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+#To install ftp server
+
+     sudo apt-get install vsftpd  
+	
+
+#To edit the server configuration
+    
+      sudo gedit /etc/vsftpd.conf 
+ 
+#To connect ftp on local server
+	
+      ftp localhost 
+
+#To install apache2	
+
+    sudo apt-get install apache2 
+
+#To edit apache2
+
+     sudo gedit /var/www/html/index.html  
+
+
+-----------------------------------
+
+Output:
+
+#ftp server is available at :
+     
+   192.168.43.95
+
+#Apache server :
+     
+     screenshot is attached (scrnsht.png)
+
+
+
+-----------------------------------
+

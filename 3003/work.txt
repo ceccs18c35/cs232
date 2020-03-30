@@ -1,0 +1,106 @@
+Script started on Monday 30 March 2020 02:30:04 PM IST
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ script work.txt[8Pcd 3003ceccs18c35[5Ps232[4Pexitsudo gedit /var/www/html/index.htmll[Kl[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index.htmll[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw/html/index.html[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[6Papt-get install apache2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pftp localhostsudo gedit /etc/vsftpd.confapt-get install vsftpd
+[sudo] password for nayanamadhu: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ sudo apt-get install vsftpd[12Pcript work.txt[8Pcd 3003ceccs18c35[5Ps232[4Pexitsudo gedit /var/www/html/index.htmll[Kl[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index.htmll[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw/html/index.html[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[6Papt-get install apache2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pftp localhostsudo gedit /etc/vsftpd.conf
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9569): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ sudo gedit /etc/vsftpd.confapt-get install vsftpd[12Pcript work.txt[8Pcd 3003ceccs18c35[5Ps232[4Pexitsudo gedit /var/www/html/index.htmll[Kl[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index.htmll[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw/html/index.html[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[6Papt-get install apache2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pftp localhostsudo gedit /etc/vsftpd.conf[14Pftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:nayanamadhu): nayanamadhu
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ftp localhostsudo gedit /etc/vsftpd.confapt-get install vsftpd[12Pcript work.txt[8Pcd 3003ceccs18c35[5Ps232[4Pexitsudo gedit /var/www/html/index.htmll[Kl[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index.htmll[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw/html/index.html[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [C[C[C[C[C[6Papt-get install apache2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.14).
+0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether a8:1e:84:bf:45:6e brd ff:ff:ff:ff:ff:ff
+3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether f8:28:19:bf:08:4f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.43.95/24 brd 192.168.43.255 scope global dynamic wlp2s0
+       valid_lft 3207sec preferred_lft 3207sec
+    inet6 2409:4073:40f:fcac:b0d0:59bd:9b69:dd89/64 scope global temporary dynamic 
+       valid_lft 3209sec preferred_lft 3209sec
+    inet6 2409:4073:40f:fcac:6932:a98:c5b7:493/64 scope global mngtmpaddr noprefixroute dynamic 
+       valid_lft 3209sec preferred_lft 3209sec
+    inet6 fe80::f53c:16ae:fbcc:cb45/64 scope link 
+       valid_lft forever preferred_lft forever
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip addresssudo apt-get install apache2[15Pftp localhostsudo gedit /etc/vsftpd.confapt-get install vsftpd[12Pcript work.txt[8Pcd 3003ceccs18c35[5Ps232[4Pexitsudo gedit /var/www/html/index.htmll[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+l[A]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ ip address[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/www/html/index.htmll
+
+(gedit:9629): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:9629): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9629): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9629): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:9629): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:9629): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ [K]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/3003[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/3003[00m$ exit
+exit
+
+Script done on Monday 30 March 2020 02:36:10 PM IST
