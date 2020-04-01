@@ -1,0 +1,610 @@
+Script started on Wednesday 01 April 2020 01:27:51 PM IST
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ gedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P update
+[sudo] password for nayanamadhu: 
+[33m
+0% [Working][0m
+            
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+[33m
+0% [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com] [Connecting to download.virtualbox.org] [Co[0m
+                                                                                                                                              
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+0% [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com] [Connecting to download.virtualbox.org] [Waiting for headers] [Co[0m[33m
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com] [Connecting to do[0m[33m
+0% [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:8001::23)] [Waiting for heade[0m
+                                                                                                                                              
+Hit:3 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+[33m
+0% [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:8001::23)] [Waiting for heade[0m[33m
+0% [3 InRelease gpgv 7,883 B] [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:80[0m
+                                                                                                                                              
+Hit:4 http://dl.google.com/linux/chrome/deb stable Release
+[33m
+0% [3 InRelease gpgv 7,883 B] [Waiting for headers] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:80[0m
+                                                                                                                                              
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m
+0% [3 InRelease gpgv 7,883 B] [5 InRelease 1,091 B/109 kB 1%] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:6[0m[33m
+0% [5 InRelease 13.3 kB/109 kB 12%] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:8001::23)] [Waitin[0m[33m
+0% [Release.gpg gpgv 943 B] [5 InRelease 13.3 kB/109 kB 12%] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67[0m[33m
+0% [5 InRelease 13.3 kB/109 kB 12%] [Connecting to archive.canonical.com] [Connecting to security.ubuntu.com (2001:67c:1360:8001::23)] [Waitin[0m
+                                                                                                                                              
+Hit:7 http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu xenial InRelease
+[33m
+0% [5 InRelease 40.5 kB/109 kB 37%] [Connecting to archive.canonical.com] [Waiting for headers] [Connecting to debian.neo4j.org (2600:9000:215[0m[33m
+0% [7 InRelease gpgv 17.5 kB] [5 InRelease 40.5 kB/109 kB 37%] [Connecting to archive.canonical.com] [Waiting for headers] [Connecting to ppa.[0m[33m
+0% [5 InRelease 41.8 kB/109 kB 38%] [Connecting to archive.canonical.com] [Waiting for headers] [Connecting to ppa.launchpad.net (2001:67c:156[0m
+                                                                                                                                              
+Hit:8 https://repo.skype.com/deb stable InRelease
+[33m
+0% [5 InRelease 92.1 kB/109 kB 84%] [Connecting to archive.canonical.com] [Waiting for headers] [Connecting to ppa.launchpad.net (2001:67c:156[0m[33m
+0% [8 InRelease gpgv 4,487 B] [5 InRelease 92.1 kB/109 kB 84%] [Connecting to archive.canonical.com] [Waiting for headers] [Connecting to ppa.[0m[33m
+0% [8 InRelease gpgv 4,487 B] [5 InRelease 92.1 kB/109 kB 84%] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [Waiting for hea[0m[33m
+0% [8 InRelease gpgv 4,487 B] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [Waiting for headers] [Connecting to ppa.launchpa[0m[33m
+0% [Waiting for headers] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [Waiting for headers] [Connecting to ppa.launchpad.net[0m[33m
+0% [5 InRelease gpgv 109 kB] [Waiting for headers] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [Waiting for headers] [Conne[0m
+                                                                                                                                              
+Get:10 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m
+0% [5 InRelease gpgv 109 kB] [Waiting for headers] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [10 InRelease 2,105 B/109 kB[0m[33m
+0% [Waiting for headers] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [10 InRelease 6,937 B/109 kB 6%] [Connecting to archiv[0m
+                                                                                                                                              
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m
+0% [11 InRelease 1,091 B/107 kB 1%] [Connecting to archive.canonical.com (2001:67c:1360:8c01::16)] [10 InRelease 11.8 kB/109 kB 11%] [Connecti[0m[33m
+                                                                                                                                              
+0% [Waiting for headers] [10 InRelease 11.8 kB/109 kB 11%] [Connecting to archive.getdeb.net] [Waiting for headers][0m[33m
+0% [11 InRelease gpgv 107 kB] [Waiting for headers] [10 InRelease 11.8 kB/109 kB 11%] [Connecting to archive.getdeb.net] [Waiting for headers][0m
+                                                                                                                                              
+Hit:12 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+[33m
+0% [11 InRelease gpgv 107 kB] [Waiting for headers] [Waiting for headers] [10 InRelease 16.6 kB/109 kB 15%] [Connecting to archive.getdeb.net][0m[33m
+                                                                                                                                              
+0% [Waiting for headers] [Waiting for headers] [10 InRelease 20.2 kB/109 kB 19%] [Connecting to archive.getdeb.net][0m[33m
+0% [12 InRelease gpgv 17.6 kB] [Waiting for headers] [Waiting for headers] [10 InRelease 20.2 kB/109 kB 19%] [Connecting to archive.getdeb.net[0m[33m
+                                                                                                                                              
+0% [Waiting for headers] [Waiting for headers] [10 InRelease 25.1 kB/109 kB 23%] [Connecting to archive.getdeb.net][0m
+                                                                                                                   
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [322 kB]
+[33m
+0% [13 Components-amd64 2,449 B/322 kB 1%] [Waiting for headers] [10 InRelease 25.1 kB/109 kB 23%] [Connecting to archive.getdeb.net][0m
+                                                                                                                                     
+Hit:14 http://archive.canonical.com/ubuntu xenial InRelease
+[33m
+                                                                                                                                     
+0% [13 Components-amd64 59.5 kB/322 kB 18%] [10 InRelease 33.5 kB/109 kB 31%] [Connecting to archive.getdeb.net][0m[33m
+0% [14 InRelease gpgv 11.5 kB] [13 Components-amd64 59.5 kB/322 kB 18%] [10 InRelease 33.5 kB/109 kB 31%] [Connecting to archive.getdeb.net][0m[33m
+                                                                                                                                            
+0% [13 Components-amd64 119 kB/322 kB 37%] [10 InRelease 35.9 kB/109 kB 33%] [Connecting to archive.getdeb.net][0m[33m
+                                                                                                               
+0% [Waiting for headers] [10 InRelease 109 kB/109 kB 100%] [Waiting for headers][0m
+                                                                                
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [233 kB]
+[33m
+                                                                                
+0% [15 icons-64x64 13.3 kB/233 kB 6%] [Waiting for headers][0m[33m
+0% [13 Components-amd64 store 0 B] [15 icons-64x64 13.3 kB/233 kB 6%] [Waiting for headers][0m[33m
+0% [13 Components-amd64 store 0 B] [10 InRelease gpgv 109 kB] [15 icons-64x64 18.7 kB/233 kB 8%] [Waiting for headers][0m[33m
+                                                                                                                      
+0% [13 Components-amd64 store 0 B] [15 icons-64x64 67.6 kB/233 kB 29%] [Waiting for headers][0m[33m
+                                                                                            
+0% [15 icons-64x64 96.2 kB/233 kB 41%] [Waiting for headers][0m
+                                                            
+Ign:9 https://debian.neo4j.org/repo stable/ InRelease
+[33m
+                                                            
+0% [15 icons-64x64 125 kB/233 kB 54%] [Waiting for headers][0m[33m
+0% [15 icons-64x64 191 kB/233 kB 82%] [Waiting for headers][0m[33m
+                                                           
+0% [Waiting for headers][0m
+                        
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [276 kB]
+[33m
+0% [17 Components-amd64 4,255 B/276 kB 2%] [Waiting for headers][0m[33m
+0% [15 icons-64x64 store 0 B] [17 Components-amd64 4,255 B/276 kB 2%] [Waiting for headers][0m[33m
+                                                                                           
+0% [15 icons-64x64 store 0 B] [17 Components-amd64 4,255 B/276 kB 2%][0m[33m
+                                                                     
+0% [17 Components-amd64 6,971 B/276 kB 3%][0m
+                                          
+Get:18 https://debian.neo4j.org/repo stable/ Release [1,479 B]
+[33m
+0% [18 Release 1,479 B/1,479 B 100%] [17 Components-amd64 145 kB/276 kB 53%][0m[33m
+                                                                            
+0% [17 Components-amd64 156 kB/276 kB 57%][0m[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [17 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                              
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [422 kB]
+[33m
+0% [17 Components-amd64 store 0 B] [19 icons-64x64 4,043 B/422 kB 1%] [Waiting for headers][0m[33m
+                                                                                           
+0% [17 Components-amd64 store 0 B] [19 icons-64x64 51.6 kB/422 kB 12%][0m[33m
+                                                                      
+0% [19 icons-64x64 59.7 kB/422 kB 14%][0m
+                                      
+Get:20 https://debian.neo4j.org/repo stable/ Release.gpg [819 B]
+[33m
+0% [Connecting to www.getdeb.net] [20 Release.gpg 0 B/819 B 0%] [19 icons-64x64 175 kB/422 kB 41%][0m[33m
+                                                                                                  
+0% [Connecting to www.getdeb.net] [19 icons-64x64 179 kB/422 kB 42%][0m[33m
+0% [Connecting to www.getdeb.net] [20 Release.gpg gpgv 1,479 B] [19 icons-64x64 179 kB/422 kB 42%][0m
+                                                                                                  
+Err:20 https://debian.neo4j.org/repo stable/ Release.gpg
+  The following signatures were invalid: KEYEXPIRED 1572135620
+[33m
+                                                                                                  
+0% [Connecting to www.getdeb.net] [19 icons-64x64 238 kB/422 kB 56%][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [Waiting for headers][0m
+                                                                      
+Get:21 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5,964 B]
+[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [21 Components-amd64 2,676 B/5,964 B 45%][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [21 Components-amd64 2,676 B/5,964 B 45%][0m[33m
+                                                                                                                     
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B][0m
+                                                                           
+Get:22 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons [14.3 kB]
+[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [22 icons-64x64 8,669 B/14.3 kB 60%][0m[33m
+                                                                                                                
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [Waiting for headers][0m
+                                                                                                 
+Get:23 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,332 B]
+[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [23 Components-amd64 864 B/3,332 B 26%][0m[33m
+                                                                                                                   
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [Waiting for headers][0m
+                                                                                                 
+Get:24 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5,320 B]
+[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [19 icons-64x64 store 0 B] [24 Components-amd64 1,358 B/5,320 B 26%][0m[33m
+                                                                                                                     
+0% [Connecting to www.getdeb.net (143.95.32.90)] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [21 Components-amd64 store 0 B] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+                                                                                                                          
+0% [Connecting to www.getdeb.net (143.95.32.90)] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [22 icons-64x64 store 0 B] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+                                                                                                                     
+0% [Connecting to www.getdeb.net (143.95.32.90)] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [23 Components-amd64 store 0 B] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+                                                                                                                          
+0% [Connecting to www.getdeb.net (143.95.32.90)] [24 Components-amd64 4,074 B/5,320 B 77%][0m[33m
+                                                                                          
+0% [Connecting to www.getdeb.net (143.95.32.90)][0m[33m
+0% [Connecting to www.getdeb.net (143.95.32.90)] [24 Components-amd64 store 0 B][0m[33m
+                                                                                
+0% [Connecting to www.getdeb.net (143.95.32.90)][0m[33m
+                                                
+0% [Waiting for headers][0m[33m
+0% [Waiting for headers][0m
+                        
+Ign:16 http://www.getdeb.net/ubuntu xenial-getdeb InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [Working][0m
+            
+Err:25 http://www.getdeb.net/ubuntu xenial-getdeb Release
+  403  Forbidden
+[33m
+0% [Working][0m
+            
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 28%
+
+Reading package lists... 31%
+
+Reading package lists... 31%
+
+Reading package lists... 53%
+
+Reading package lists... 53%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 67%
+
+Reading package lists... 67%
+
+Reading package lists... 71%
+
+Reading package lists... 71%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 79%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://debian.neo4j.org/repo stable/ Release: The following signatures were invalid: KEYEXPIRED 1572135620
+E: The repository 'http://archive.getdeb.net/ubuntu xenial-getdeb Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google-chrome.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome-unstable.list:3 and /etc/apt/sources.list.d/google.list:1
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo apt updategedit report.txt[1Psudo apt updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.18-2ubuntu3.14).
+0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo apt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 start
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo service apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[9Pservice mysql startapt-get install mysql-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (5.7.29-0ubuntu0.16.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo apt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql start
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo service mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+libapache2-mod-php is already the newest version (1:7.0+35ubuntu6.1).
+php is already the newest version (1:7.0+35ubuntu6.1).
+php-mysql is already the newest version (1:7.0+35ubuntu6.1).
+0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.php
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: info.php                                                                              [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[1;134H(B[0;7mModified
+[3d(B[0;1m[32m<?php(B[0m[42m 
+[4d[49m[37mphpinfo([39m(B[m);
+[5d(B[0;1m[32m?>[39m(B[m
+[41d(B[0;7mFile Name to Write: info.php                                                                                                                   [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;29H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[5;3H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[5;3H
+[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ nano info.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.phpip address[Knano index.php[1Pfo.phpdex.php
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.php                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[1;134H(B[0;7mModified
+[3d(B[0;1m[32m<?php
+[4d[39m(B[mecho (B[0;1m[33m"Hello !!!! It's PARVATHY SANTHOSH here....!!!!"
+[5d[32m?>
+[41d[39m(B[m[K[5;3H[4;54H(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m...!"[39m(B[m[K(B[0;1m[33m..!"[39m(B[m[K(B[0;1m[33m.!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m"[39m(B[m[K(B[0;1m[33m!"[39m(B[m[K(B[0;1m[33m!!"[39m(B[m(B[0;1m[33m !"[39m(B[m(B[0;1m[33mI!"[39m(B[m(B[0;1m[33m !"[39m(B[m(B[0;1m[33ma!"[39m(B[m(B[0;1m[33mm!"[39m(B[m(B[0;1m[33m !"[39m(B[m(B[0;1m[33mk!"[39m(B[m(B[0;1m[33ma!"[39m(B[m(B[0;1m[33mv!"[39m(B[m(B[0;1m[33my!"[39m(B[m(B[0;1m[33ma!"[39m(B[m(B[0;1m[33m !"[39m(B[m(B[0;1m[33mf!"[39m(B[m(B[0;1m[33mr!"[39m(B[m(B[0;1m[33mo!"[39m(B[m(B[0;1m[33mm!"[39m(B[m(B[0;1m[33m !"[39m(B[m(B[0;1m[33mS!"[39m(B[m(B[0;1m[33m4!"[39m(B[m(B[0;1m[33mC!"[39m(B[m(B[0;1m[33m!"[39m(B[m[K[C(B[0;1m[33m"[39m(B[m[K(B[0;1m[33mC"[39m(B[m[1P(B[0;1m[33mKavya from S4C"[4;20H[39m(B[m[C[C[C[C[C[C[C[C(B[0;1m[33mm from S4C"[4;25H[39m(B[m[1P(B[0;1m[33m  from S4C"[4;25H[39m(B[m(B[0;1m[33mm from S4C"[4;26H[39m(B[m[1P(B[0;1m[33mm from S4C"[4;26H[39m(B[m[1P(B[0;1m[33mm from S4C"[4;26H[39m(B[m(B[0;1m[33mM from S4C"[4;27H[39m(B[m[1P[1P(B[0;1m[33mM from S4C"[4;26H[39m(B[m(B[0;1m[33m  from S4C"[4;27H[39m(B[m
+[41d(B[0;7mFile Name to Write: index.php                                                                                                                  [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;30H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[4;27H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[4;27H
+[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ 
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ IP[K[Kip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether a8:1e:84:bf:45:6e brd ff:ff:ff:ff:ff:ff
+3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether f8:28:19:bf:08:4f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.43.95/24 brd 192.168.43.255 scope global dynamic wlp2s0
+       valid_lft 2328sec preferred_lft 2328sec
+    inet6 2409:4073:40f:fcac:4c7f:4c43:11df:b664/64 scope global temporary dynamic 
+       valid_lft 3553sec preferred_lft 3553sec
+    inet6 2409:4073:40f:fcac:6932:a98:c5b7:493/64 scope global mngtmpaddr noprefixroute dynamic 
+       valid_lft 3553sec preferred_lft 3553sec
+    inet6 fe80::f53c:16ae:fbcc:cb45/64 scope link 
+       valid_lft forever preferred_lft forever
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ ip addressnano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php[1Pfo.php
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ]
+[3d(B[m[41;70H(B[0;7m 3 lines
+[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                               File: /var/www/html/info.php                                                                    [3;1H(B[0;1m[32m<?php(B[0m[42m 
+[4d[49m[37mphpinfo([39m(B[m);
+[5d(B[0;1m[32m?>
+[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[41d(B[0;7mFile Name to Write: /var/www/html/info.php                                                                                                     [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;43H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K
+[3d[?12l[?25h[42;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ sudo nano /var/www/html/info.phpip address[Ksudo nano /var/www/html/info.php[Ksudo nano /var/www/html/info.phpip address[Knano index.php[1Pfo.phpsudo apt install php libapache2-mod-php php-mysql[25Pservice mysql startapt-get install mysql-server[7Pservice apache2 startapt-get install apache2[13P updategedit report.txt[1Pscript work.txt[8Pcd 0104ceccs18c35[5Ps232[4Pexitsudo nano /var/www/html/index.php
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ]
+[3d(B[m[41;70H(B[0;7m 3 lines
+[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                              File: /var/www/html/index.php                                                                    [3;1H(B[0;1m[32m<?php
+[4d[39m(B[mecho (B[0;1m[33m"Hello, I am Kavya from S4C"
+[5d[32m?>
+[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[4decho [C[C[C[C[C[C[C[1;134H(B[0;7mModified[4;12H(B[m[1P(B[0;1m[33m! I am Kavya from S4C"[4;13H[39m(B[m[C[C[C[C[C[C[C[C[C[C
+[41d[K[4;24H(B[0;1m[33mM from S4C"[4;25H[39m(B[m[1P(B[0;1m[33m  from S4C"[4;25H[39m(B[m(B[0;1m[33mM from S4C"[4;26H[39m(B[m
+[41d(B[0;7mFile Name to Write: /var/www/html/index.php                                                                                                    [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;44H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[4;26H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[4;26H
+[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0104[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0104[00m$ exir[Kt
+exit
+
+Script done on Wednesday 01 April 2020 01:40:37 PM IST

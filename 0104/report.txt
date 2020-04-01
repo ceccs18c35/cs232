@@ -1,0 +1,80 @@
+CEC CS 18 C35   
+KAVYA M
+
+--------------------------------
+#1: LAMP Stack (t8(3))
+---------------------------------
+
+
+Command/Shell script/Program name
+---------------------------------
+#To update list
+
+	sudo apt update  
+
+#To install apache2
+
+	
+         sudo apt-get install apache2  
+	
+#To start apache2
+
+         sudo service apache2 start  
+
+	
+#To install mysql
+
+         sudo apt-get install mysql-server  
+
+#To start mysql
+
+	 sudo service mysql start  
+
+#PHP installation
+           
+         sudo apt install php libapache2-mod-php php-mysql
+
+#To create PHP file info
+
+          nano info.php  
+
+#To create PHP file index
+
+          nano index.php  
+
+#PHP version viewed through
+            
+          http://localhost/info.php or 192.168.43.95/info.php
+
+        
+#To test PHP Processing on Web Server
+            
+         sudo nano /var/www/html/info.php
+
+
+Input:
+---------------
+
+	#php file
+
+	info.php
+	
+        index.php
+
+--------------------------------
+
+
+Output:
+
+#info.php 
+
+  Screenshot is attached (info.png)
+
+#index.php 
+  
+  Screenshot is attached (index.png)
+
+
+
+-------------------
+
