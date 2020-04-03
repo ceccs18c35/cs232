@@ -1,0 +1,42 @@
+CEC CS 18 C35  
+KAVYA M
+
+--------------------------------
+#1: Shell script to implement a simple menu driven calculator(s6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+#Shell script used to implement simple menu driven calculator
+	
+  calculator.sh
+
+
+Input:
+---------------
+
+	Read any two numbers taken from the user
+        (3 and 9)
+
+--------------------------------
+Output: 
+
+
+	#The arithematic operations are performed successfully.
+        #The output of various arithematic operations between 2 numbers(3 and 9 )is shown in the screenshots
+        
+        calc1.png
+        calc2.png
+        
+
+	
+
+
+
+
+
+
+
+
+-------------------------------------
+
