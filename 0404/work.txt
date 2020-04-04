@@ -1,0 +1,306 @@
+Script started on Saturday 04 April 2020 08:28:02 PM IST
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ nano systmconf1.sh
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3             File: systmconf1.sh                                [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[0m[36m#[39m(B[m[36m![39m(B[m[36mb[39m(B[m[36mi[39m(B[m  [36m/[39m(B[m[36mb[39m(B[m[36mi[39m(B[m[36mb[39m(B[m[36m/[39m(B[m[36mb[39m(B[m[36ma[39m(B[m[36ms[39m(B[m[36mh[39m(B[m[36m/bash[39m(B[m[K[6G[36mn/bash[7G[39m(B[m[C[C[C[22d[K[3;11H[C[4dech(B[0;1m[34mecho[39m(B[m[5dech(B[0;1m[34mecho[39m(B[m[6dech(B[0;1m[34mecho[39m(B[m[7dech(B[0;1m[34mecho[39m(B[m[A[A[A[42m [49m(B[m -[32m-e[39m(B[m[42m [49m(B[m "[32m\[39m(B[mn[32m\[39m(B[mn[9G(B[0;1m[33m"\n\n"[39m(B[m[5;5H[6d[7dech[K  [K[6;5Hech[K  [K[5;5Hech[K  [K(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[6d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[7d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[8d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[9d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[10d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[11d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[12d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[13d[39m(B[m[A[A[A[A[A[A[A[A[A[C[C[C[C [C[C [C[C[C(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mUU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mU\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33m..\n"[39m(B[m(B[0;1m[33m...\n"[39m(B[m(B[0;1m[33m....\n"[39m(B[m(B[0;1m[33m.....\n"[39m(B[m[12G(B[0;1m[33m......\n"[39m(B[m[12G[18G(B[0;1m[33m.\n"[39m(B[m[12G[19G(B[0;1m[33m.\n"[39m(B[m[4;12H[4;20H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;21H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;22H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;23H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;24H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;25H(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33m..\n"[39m(B[m(B[0;1m[33m...\n"[39m(B[m(B[0;1m[33m....\n"[39m(B[m(B[0;1m[33m.....\n"[39m(B[m[46G(B[0;1m[33m......\n"[39m(B[m[46G[52G(B[0;1m[33m.\n"[39m(B[m[46G[53G(B[0;1m[33m.\n"[39m(B[m[4;46H[4;54H(B[0;1m[33m.\n"[39m(B[m[4;46H[4;55H(B[0;1m[33m.\n"[39m(B[m[4;46H[4;56H(B[0;1m[33m.\n"[39m(B[m[4;46H[4;57H(B[0;1m[33m.\n"[39m(B[m[4;46H[4;58H(B[0;1m[33m.\n"[39m(B[m[4;46H[4;59H(B[0;1m[33m.\n"[39m(B[m[5;15H(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mGG\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m(B[0;1m[33m$\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m[6;15H(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m(B[0;1m[33m$\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m[7;15H(B[0;1m[33mCn"[39m(B[m(B[0;1m[33mUn"[39m(B[m(B[0;1m[33mRn"[39m(B[m(B[0;1m[33mRRn"[39m(B[m(B[0;1m[33mEn"[39m(B[m(B[0;1m[33mNn"[39m(B[m(B[0;1m[33mTn"[39m(B[m(B[0;1m[33m n"[39m(B[m(B[0;1m[33mSn"[39m(B[m(B[0;1m[33mHn"[39m(B[m(B[0;1m[33mEn"[39m(B[m(B[0;1m[33mLn"[39m(B[m(B[0;1m[33mLLn"[39m(B[m(B[0;1m[33m n"[39m(B[m(B[0;1m[33m:n"[39m(B[m(B[0;1m[33m$n"[39m(B[m(B[0;1m[33mSn"[39m(B[m(B[0;1m[33mHn"[39m(B[m(B[0;1m[33mEn"[39m(B[m(B[0;1m[33mLn"[39m(B[m(B[0;1m[33mLLn"[39m(B[m[8;15H(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mH\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m(B[0;1m[33m$\n"[39m(B[m(B[0;1m[33mH\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m[9;15H(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[C[C[C[10d[K[13d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[10d[39m(B[muname[42m [49m(B[m -o[11d[C[C[C(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mH\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mTT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mH\n"[39m(B[m[12;15H(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mW\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mK\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[A(B[0;1m[33m$PATH\n"[35G[39m(B[m[12d(B[0;1m[33m0RY:\n"[36G[39m(B[m[1P[C[C[C[C[C[C7[13;22r8[13dM[1;24r[13;1Hpwd[14d[C [C[C [C[C[C(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mB\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mRR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mGG\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[C[C[C[15dwho[22d(B[0;7mFile Name to Write: systmconf1.sh                                               [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;34H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 14 lines ](B[m[K[15;4H[?12l[?25h[1;71H(B[0;7m        [23;14H^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[15;4H[22d[J[24;80H[24;1H[?1049l[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ nano systmconf1.sh[3Pscript work.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbas [Kh nano systmconf1.sh
+/bin/nano: /bin/nano: cannot execute binary file
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ bash nano systmconf1.sh[1P systmconf1.sh[1P systmconf1.sh[1P systmconf1.sh[1P systmconf1.sh[1Psystmconf1.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+..............SYSTEM CONFIGURATION..............
+
+
+CURRENTLY LOGGED USER :nayanamadhu
+
+
+CURRENT LOGIN NAME :nayanamadhu
+
+
+\CURRENT SHELL :
+
+CURRENT HOME DIRECTORY :/home/nayanamadhu
+
+
+OPERATING SYSTEM TYPE :
+
+GNU/Linux
+
+CURRENT PATH SETTING :/home/nayanamadhu/anaconda3/bin:/home/nayanamadhu/anaconda3/bin:/home/nayanamadhu/bin:/home/nayanamadhu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+CURRENT WORKING DIRECTORY:
+
+/home/nayanamadhu/cs232/ceccs18c35/0404
+
+NUMBER OF USERS CURRENTLY LOGGED IN :
+
+nayanamadhu tty7         2020-04-04 19:14 (:0)
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ [K]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ bash systmconf1.shnano systmconf1.sh[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 14 lines ][17d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                  File: systmconf1.sh                                                                          [3;1H(B[0m[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n..............SYSTEM CONFIGURATION..............\n"[5d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nCURRENTLY LOGGED USER :$USER\n"[6d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nCURRENT LOGIN NAME :$LOGNAME\n"[7d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\CURRENT SHELL :$SHELLn"[8d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nCURRENT HOME DIRECTORY :$HOME\n"[9d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nOPERATING SYSTEM TYPE :\n"[10d[39m(B[muname -o[11d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nCURRENT PATH SETTING :$PATH\n"[12d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nCURRENT WORKING DIRECTORY:\n"[13d[39m(B[mpwd[14d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\nNUMBER OF USERS CURRENTLY LOGGED IN :\n"[15d[39m(B[mwho[42d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[4d[5d[6d[7d[C[C[C[C [C[C [C[C[C[C[1;134H(B[0;7mModified[7;12H(B[m[1P[C[C[C[C[C[C[C[C[41d[K[7;21H[C[C[C[C[C[C[C[C[C[C[C[C(B[0;1m[33m\n"[39m(B[m[41d(B[0;7mFile Name to Write: systmconf1.sh                                                                                                              [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;34H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 14 lines ](B[m[K[7;34H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[7;34H[41d[J[43;143H[43;1H[?1049l[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ nano systmconf1.shbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+..............SYSTEM CONFIGURATION..............
+
+
+CURRENTLY LOGGED USER :nayanamadhu
+
+
+CURRENT LOGIN NAME :nayanamadhu
+
+
+CURRENT SHELL :/bin/bash
+
+
+CURRENT HOME DIRECTORY :/home/nayanamadhu
+
+
+OPERATING SYSTEM TYPE :
+
+GNU/Linux
+
+CURRENT PATH SETTING :/home/nayanamadhu/anaconda3/bin:/home/nayanamadhu/anaconda3/bin:/home/nayanamadhu/bin:/home/nayanamadhu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+CURRENT WORKING DIRECTORY:
+
+/home/nayanamadhu/cs232/ceccs18c35/0404
+
+NUMBER OF USERS CURRENTLY LOGGED IN :
+
+nayanamadhu tty7         2020-04-04 19:14 (:0)
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ bash systmconf1.shnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.sh2.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                  File: systmconf2.sh                                                                          [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3d(B[0m[36m#[39m(B[m[36m![39m(B[m[36m/[39m(B[m[36mb[39m(B[m[36mi[39m(B[m[36mn[39m(B[m[36m/[39m(B[m[36mb[39m(B[m[36ma[39m(B[m[36ms[39m(B[m[36mh[39m(B[m[4d[43;1H[?1049l[?1l>[?1049h[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                  File: systmconf2.sh           [3;1H(B[0m[36m#!/bin/bash[4d[39m(B[m[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                  File: systmconf2.sh           [3;1H(B[0m[36m#!/bin/bash[4d[39m(B[m[1;30H(B[0;7mFile: systmconf2.sh                      Modified[23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[4dech(B[0;1m[34mecho[39m(B[m[42m [49m(B[m -[32m-e[39m(B[m[42m [49m(B[m "[32m\[39m(B[mn[32m\[39m(B[mn[9G(B[0;1m[33m"\n\n"[39m(B[m[5d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[6d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[7d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[8d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[9d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[10d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[11d[39m(B[m(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n\n"[12d[39m(B[m[A[A[A[A[A[A[A[A[A[4d[C[C[C[C [C[C [C[C[C(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33m..\n"[39m(B[m(B[0;1m[33m...\n"[39m(B[m(B[0;1m[33m....\n"[39m(B[m(B[0;1m[33m.....\n"[39m(B[m[12G(B[0;1m[33m......\n"[39m(B[m[12G[18G(B[0;1m[33m.\n"[39m(B[m[12G[19G(B[0;1m[33m.\n"[39m(B[m[4;12H[4;20H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;21H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;22H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;23H(B[0;1m[33m.\n"[39m(B[m[4;12H[4;24H(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m.\n"[39m(B[m(B[0;1m[33m..\n"[39m(B[m(B[0;1m[33m...\n"[39m(B[m(B[0;1m[33m....\n"[39m(B[m(B[0;1m[33m.....\n"[39m(B[m[45G(B[0;1m[33m......\n"[39m(B[m[45G[51G(B[0;1m[33m.\n"[39m(B[m[45G[52G(B[0;1m[33m.\n"[39m(B[m[4;45H[4;53H(B[0;1m[33m.\n"[39m(B[m[4;45H[4;54H(B[0;1m[33m.\n"[39m(B[m[4;45H[4;55H(B[0;1m[33m.\n"[39m(B[m[5;15H[4;56H[C[C[C[C[C[C[C[C[C[C[4;45H[4;56H(B[0;1m[33m.\n"[39m(B[m[4;45H[4;57H(B[0;1m[33m.\n"[39m(B[m[4;45H[4;58H(B[0;1m[33m.\n"[39m(B[m[C[C[C[C[C[C[C[C[C[C[C[C[4;12H[4;25H(B[0;1m[33m.SYSTEM CONFIGURATION[4;59H.\n"[4;25H[39m(B[m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5;15H(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mV\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m,\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mB\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m(B[0;1m[33m::\n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[K[6;15H(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mG\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mK\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mV\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m[7;15H(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mLL\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mV\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mB\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mH\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mLL\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m[8;15H[9d[A(B[0;1m[33mC\n"[39m(B[m(B[0;1m[33mP\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[A(B[0;1m[33m0LLS\n"[30G[39m(B[m[1P[C(B[0;1m[33m0LS\n"[31G[39m(B[m(B[0;1m[33mLS\n"[39m(B[m[K[30G[C[C(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[A[A[6d[C[C[C[C[C[C[C[C[C[C(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[7;37H[8;32H[9;15H(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[10;15H(B[0;1m[33mH\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mK\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mR\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mA\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[11;15H(B[0;1m[33mF\n"[39m(B[m(B[0;1m[33mI\n"[39m(B[m(B[0;1m[33mL\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mY\n"[39m(B[m(B[0;1m[33mS\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33mi\n"[39m(B[m(B[0;1m[33m\n"[39m(B[m[K(B[0;1m[33m(\n"[39m(B[m(B[0;1m[33mM\n"[39m(B[m(B[0;1m[33mO\n"[39m(B[m(B[0;1m[33mU\n"[39m(B[m(B[0;1m[33mN\n"[39m(B[m(B[0;1m[33mT\n"[39m(B[m(B[0;1m[33mE\n"[39m(B[m(B[0;1m[33mD\n"[39m(B[m(B[0;1m[33m)\n"[39m(B[m(B[0;1m[33m \n"[39m(B[m(B[0;1m[33m:\n"[39m(B[m[A[A[A[7;35H[A[A(B[0;1m[33m0N, RELEASE NUMBER :\n"[5;36H[39m(B[m[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[6;22r8[6dM[1;24r[6;1Hca(B[0;1m[34mcat[39m(B[m[42m [49m(B[m /etc/os-[32m-r[39m(B[m-release[7d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8;37H[9;32H[8;37H[7;44H[1P[1P(B[0;1m[33mYSTEM KERNEL VERSION :\n"[7;24H[39m(B[m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[8;22r8[8dM[1;24r[8;1HUN [Kuname[42m [49m(B[m -[32m-r[39m(B[m[9d0echo [32m-e[39m(B[m (B[0;1m[33m"\nALL AVAILABLE SHELLS :\n"[C[39m(B[m(B[0;1m[34mecho[39m(B[m[1P[C[C[C[C [C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[10;22r8[10dM[1;24r[10;1Hca(B[0;1m[34mcat[39m(B[m[42m [49m(B[m /etc/shells[11d[C[1P(B[0;1m[33mU INFORMATION :\n"[11;15H[39m(B[m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[12;22r8[12dM[1;24r[12;1Hca(B[0;1m[34mcat[39m(B[m[42m [49m(B[m /proc/c(B[0;1m[34mcp[39m(B[mcpuinfo[13d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14d[13;35H[14d[A7[14;22r8[14dM[1;24r[14;1Hca(B[0;1m[34mcat[39m(B[m[42m [49m(B[m /proc/meminfo[15d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[16;22r8[16dM[1;24r[16;1Hdf[42m [49m(B[m -h[17d[C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18d[19d[Amount[42m [49m(B[m  t[42m [49m(B[m [32m|[39m(B[mcolumn[42m [49m(B[m -t column -t[18;9H[22d(B[0;7mFile Name to Write: systmconf2.sh                                               [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;34H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 16 lines ](B[m[K[18;9H[?12l[?25h[1;71H(B[0;7m        [23;14H^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[18;9H[22d[J[24;80H[24;1H[?1049l[?1l>]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ nano systmconf2.shbash systmconf1.sh[1P.sh2.sh
+
+..............SYSTEM CONFIGURATION..............
+
+
+OPERATING SYSTEM VERSION, RELEASE NUMBER :
+
+NAME="Ubuntu"
+VERSION="16.04.6 LTS (Xenial Xerus)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 16.04.6 LTS"
+VERSION_ID="16.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+VERSION_CODENAME=xenial
+UBUNTU_CODENAME=xenial
+
+OPERATING SYSTEM KERNEL VERSION :
+
+4.4.0-170-generic
+
+ALL AVAILABLE SHELLS :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+
+CPU INFORMATION :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 793.019
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single intel_pt ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5424.49
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 756.949
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single intel_pt ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5424.49
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 760.429
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single intel_pt ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5424.49
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+stepping	: 9
+microcode	: 0xca
+cpu MHz		: 798.082
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single intel_pt ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5424.49
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+MEMORY INFORMATION :
+
+MemTotal:        8039776 kB
+MemFree:         5081108 kB
+MemAvailable:    5920032 kB
+Buffers:          113232 kB
+Cached:          1270552 kB
+SwapCached:            0 kB
+Active:          1781096 kB
+Inactive:         935068 kB
+Active(anon):    1335292 kB
+Inactive(anon):   347452 kB
+Active(file):     445804 kB
+Inactive(file):   587616 kB
+Unevictable:         548 kB
+Mlocked:             548 kB
+SwapTotal:       7999484 kB
+SwapFree:        7999484 kB
+Dirty:               112 kB
+Writeback:             0 kB
+AnonPages:       1332812 kB
+Mapped:           613264 kB
+Shmem:            350356 kB
+Slab:             103720 kB
+SReclaimable:      60004 kB
+SUnreclaim:        43716 kB
+KernelStack:       11872 kB
+PageTables:        55844 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    12019372 kB
+Committed_AS:    7858348 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      2048 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      193140 kB
+DirectMap2M:     4915200 kB
+DirectMap1G:     3145728 kB
+
+HARD DISK INFORMATION :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           786M  9.3M  776M   2% /run
+/dev/sda2       184G  131G   44G  76% /
+tmpfs           3.9G   93M  3.8G   3% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+tmpfs           786M   68K  786M   1% /run/user/1000
+/dev/sr0        3.4G  3.4G     0 100% /media/nayanamadhu/Untitled Disc
+
+FILE SYSTEM (MOUNTED) :
+
+sysfs       on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc        on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev        on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=3998080k,nr_inodes=999520,mode=755)
+devpts      on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs       on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=803980k,mode=755)
+/dev/sda2   on  /                                type  ext4             (rw,relatime,errors=remount-ro,data=ordered)
+securityfs  on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs       on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs       on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs       on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup      on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)
+pstore      on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup      on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup      on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup      on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup      on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup      on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup      on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup      on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup      on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup      on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup      on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+systemd-1   on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct)
+mqueue      on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs     on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+hugetlbfs   on  /dev/hugepages                   type  hugetlbfs        (rw,relatime)
+fusectl     on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+tmpfs       on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=803980k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse  on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/sr0    on  /media/nayanamadhu/Untitled      Disc  type             udf                                                                                                    (ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,uhelper=udisks2)
+]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ [K]0;nayanamadhu@rockstar: ~/cs232/ceccs18c35/0404[01;32mnayanamadhu@rockstar[00m:[01;34m~/cs232/ceccs18c35/0404[00m$ exit
+exit
+
+Script done on Saturday 04 April 2020 08:54:59 PM IST
